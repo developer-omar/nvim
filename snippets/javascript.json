@@ -3,13 +3,13 @@
     "prefix": [
       "dobj"
     ],
-    "body": "const { $1 } = ${2:object};"
+    "body": "const { $2 } = ${1:object};"
   },
   "Destructuring an array": {
     "prefix": [
       "darr"
     ],
-    "body": "const [ $1 ] = ${2:array};"
+    "body": "const [ $2 ] = ${1:array};"
   },
   "Arrow function with arguments": {
     "prefix": [

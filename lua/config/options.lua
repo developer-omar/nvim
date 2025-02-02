@@ -9,3 +9,5 @@ vim.filetype.add({
     [".*%.blade%.php"] = "blade",
   },
 })
+
+vim.g.lazyvim_picker = "telescope"

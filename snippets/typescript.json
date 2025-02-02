@@ -12,7 +12,7 @@
       "export { use${1:ComposableName} };"
     ]
   },
-  "Route definition": {
+  "Vue 3 route definition": {
     "prefix": "v3route",
     "body": [
       "{",
@@ -22,7 +22,7 @@
       "},"
     ]
   },
-  "Dynamic route definition": {
+  "Vue 3 dynamic route definition": {
     "prefix": "v3dynamic-route",
     "body": [
       "{",
@@ -30,6 +30,14 @@
       "\tname: \"$2\",",
       "\tcomponent: () => import(\"$3\")",
       "},"
+    ]
+  },
+  "Vitest test definition": {
+    "prefix": "vTest",
+    "body": [
+      "test(\"${1:description}\", () => {",
+      "\t$2",
+      "});"
     ]
   }
 }
