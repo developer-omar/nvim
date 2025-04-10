@@ -14,11 +14,11 @@
 
 ## Some Considerations
 
-This configuration is prepared for using Javascript (React, Vue), PHP (Laravel) and Markdown.
+This configuration is prepared for using Javascript (React, Vue), Typescript, PHP (Laravel) and Markdown.
 Follow these instructions:
 
 - Clone this repository in ~/.config/ or make a symbolic link with `ln` .
-- You have to install nvim-cmp(coding.nvim-cmp) and neotest(test.core) with LazyExtras.
+- You have to install nvim-cmp(coding.nvim-cmp), neotest(test.core), and [Telescope](https://www.lazyvim.org/extras/editor/telescope) (follow additional options for the telescope) with LazyExtras.
 - You have to install the programming languages with LazyExtras.
 - Install a formatter for using blade with treesitter.
 
