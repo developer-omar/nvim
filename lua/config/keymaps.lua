@@ -36,6 +36,10 @@ vim.keymap.set("i", "<a-j>", "<c-o><cmd>m +1<cr><c-o>==", { desc = "Move a line 
 vim.keymap.set("v", "<a-k>", ":m '<-2<cr>gv=gv", { desc = "Move a selection up", silent = true })
 vim.keymap.set("v", "<a-j>", ":m '>+1<cr>gv=gv", { desc = "Move a selection down", silent = true })
 
+-- vim.keymap.set("n", "<c-s>", "<cmd>RemoveTrailingWhitespaces<cr><cmd>update<cr>", { desc = "Save file", silent = true })
+-- vim.keymap.set("v", "<c-s>", "<c-c><cmd>RemoveTrailingWhitespaces<cr><cmd>update<cr>", { desc = "Save file", silent = true })
+-- vim.keymap.set("i", "<c-s>", "<c-c><cmd>RemoveTrailingWhitespaces<cr><cmd>update<cr>", { desc = "Save file", silent = true })
+
 vim.keymap.set(
   "n",
   "<leader>m",

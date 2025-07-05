@@ -11,3 +11,12 @@ vim.filetype.add({
 })
 
 vim.g.lazyvim_picker = "telescope"
+
+-- additional option for prettier
+vim.g.lazyvim_prettier_needs_config = false
+
+-- additional option for eslint
+vim.g.lazyvim_eslint_auto_format = true
+
+-- disable autoformat on save
+vim.g.autoformat = false

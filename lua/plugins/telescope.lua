@@ -30,6 +30,30 @@ return {
         end,
         desc = "Find Plugin File",
       },
+
+      {
+        "<leader>od",
+        function()
+          require("telescope.builtin").lsp_definitions({ jump_type="vsplit" })
+        end,
+        desc = "Open Definition in Vertical Window",
+      },
+
+      {
+        "<leader>oi",
+        function()
+          require("telescope.builtin").lsp_implementations({ jump_type="vsplit" })
+        end,
+        desc = "Open Implementation in Vertical Window",
+      },
+
+      {
+        "<leader>oD",
+        function()
+          require("telescope.builtin").lsp_type_definitions({ jump_type="vsplit" })
+        end,
+        desc = "Open Type Definition in Vertical Window",
+      },
       -- {
       --   "<leader>fk",
       --   function()
